@@ -17,5 +17,9 @@ namespace TinyCalculator
             InitializeComponent();
         }
 
+        private void ExitBTN_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

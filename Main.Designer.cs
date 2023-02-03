@@ -52,6 +52,7 @@ namespace TinyCalculator
             this.button20 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.ExitBTN = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -222,7 +223,7 @@ namespace TinyCalculator
             this.panel1.Controls.Add(this.button15);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button16);
-            this.panel1.Location = new System.Drawing.Point(12, 128);
+            this.panel1.Location = new System.Drawing.Point(5, 128);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(152, 145);
             this.panel1.TabIndex = 16;
@@ -266,7 +267,7 @@ namespace TinyCalculator
             // label1
             // 
             this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(12, 13);
+            this.label1.Location = new System.Drawing.Point(5, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(153, 87);
             this.label1.TabIndex = 17;
@@ -275,30 +276,44 @@ namespace TinyCalculator
             // 
             this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Location = new System.Drawing.Point(11, 106);
+            this.label2.Location = new System.Drawing.Point(4, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(153, 16);
             this.label2.TabIndex = 18;
             // 
+            // ExitBTN
+            // 
+            this.ExitBTN.BackColor = System.Drawing.Color.Red;
+            this.ExitBTN.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ExitBTN.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ExitBTN.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ExitBTN.Location = new System.Drawing.Point(152, 0);
+            this.ExitBTN.Margin = new System.Windows.Forms.Padding(0);
+            this.ExitBTN.Name = "ExitBTN";
+            this.ExitBTN.Size = new System.Drawing.Size(10, 10);
+            this.ExitBTN.TabIndex = 19;
+            this.ExitBTN.Click += new System.EventHandler(this.ExitBTN_Click);
+            // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.Red;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label3.BackColor = System.Drawing.Color.DarkGray;
+            this.label3.Cursor = System.Windows.Forms.Cursors.SizeAll;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(168, 0);
+            this.label3.Location = new System.Drawing.Point(46, 0);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(10, 10);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "×";
+            this.label3.Size = new System.Drawing.Size(70, 10);
+            this.label3.TabIndex = 20;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(177, 285);
+            this.ClientSize = new System.Drawing.Size(162, 277);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.ExitBTN);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -335,6 +350,7 @@ namespace TinyCalculator
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label ExitBTN;
         private System.Windows.Forms.Label label3;
     }
 }

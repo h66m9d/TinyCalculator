@@ -6,7 +6,6 @@ C:\Users\Hamed\Desktop\TinyCalculator\bin\Debug\net5.0-windows\TinyCalculator.dl
 C:\Users\Hamed\Desktop\TinyCalculator\bin\Debug\net5.0-windows\ref\TinyCalculator.dll
 C:\Users\Hamed\Desktop\TinyCalculator\bin\Debug\net5.0-windows\TinyCalculator.pdb
 C:\Users\Hamed\Desktop\TinyCalculator\obj\Debug\net5.0-windows\TinyCalculator.csproj.AssemblyReference.cache
-C:\Users\Hamed\Desktop\TinyCalculator\obj\Debug\net5.0-windows\TinyCalculator.Form1.resources
 C:\Users\Hamed\Desktop\TinyCalculator\obj\Debug\net5.0-windows\TinyCalculator.csproj.GenerateResource.cache
 C:\Users\Hamed\Desktop\TinyCalculator\obj\Debug\net5.0-windows\TinyCalculator.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Hamed\Desktop\TinyCalculator\obj\Debug\net5.0-windows\TinyCalculator.AssemblyInfoInputs.cache
@@ -16,3 +15,4 @@ C:\Users\Hamed\Desktop\TinyCalculator\obj\Debug\net5.0-windows\TinyCalculator.dl
 C:\Users\Hamed\Desktop\TinyCalculator\obj\Debug\net5.0-windows\ref\TinyCalculator.dll
 C:\Users\Hamed\Desktop\TinyCalculator\obj\Debug\net5.0-windows\TinyCalculator.pdb
 C:\Users\Hamed\Desktop\TinyCalculator\obj\Debug\net5.0-windows\TinyCalculator.genruntimeconfig.cache
+C:\Users\Hamed\Desktop\TinyCalculator\obj\Debug\net5.0-windows\TinyCalculator.Main.resources
