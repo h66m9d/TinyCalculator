@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyCalculator", "TinyCalculator.csproj", "{BE6DE976-00F7-4730-A2B6-ED6CF0B4201B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE6DE976-00F7-4730-A2B6-ED6CF0B4201B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6DE976-00F7-4730-A2B6-ED6CF0B4201B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6DE976-00F7-4730-A2B6-ED6CF0B4201B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6DE976-00F7-4730-A2B6-ED6CF0B4201B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F51A7F59-A07F-4978-8D4B-17A24F649C01}
+	EndGlobalSection
+EndGlobal
